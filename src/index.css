@@ -12,3 +12,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.center{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+button.btn {
+  align-self: center;
+  justify-content: center;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  text-transform: uppercase;
+}
